@@ -14,4 +14,4 @@ if st.button("Run code"):
             st.success("Code executed Successfully!")
             st.code(output, language="python")
     except Exception as e:
-        st.error(f"Erorr {e}") #https://github.com/SUFIYAN2004/Python-Code-Runner-Run-Python-Code-in-the-Browser-with-Streamlit-exec-.git
+        st.error(f"Erorr {e}") 
